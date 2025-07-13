@@ -1,5 +1,3 @@
-../obj/customerqpushbutton.o
-../obj/keyboard.o
 ../obj/dictbuilder.o
 ../obj/dictlist.o
 ../obj/dicttrie.o
@@ -16,9 +14,9 @@
 ../obj/userdict.o
 ../obj/utf16char.o
 ../obj/utf16reader.o
+../obj/KeyBoard.o
 ../obj/main.o
 ../obj/KeyBoardDemo.o
 ../obj/qrc_res.o
-../obj/moc_customerqpushbutton.o
-../obj/moc_keyboard.o
+../obj/moc_KeyBoard.o
 ../obj/moc_KeyBoardDemo.o

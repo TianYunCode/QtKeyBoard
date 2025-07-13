@@ -2,5 +2,8 @@
     <qresource prefix="/">
         <file>pinyinData/dict_pinyin.dat</file>
         <file>pinyinData/user_dict_pinyin.dat</file>
+        <file>image/keyboard_icon.svg</file>
+        <file>image/maximize_icon.svg</file>
+        <file>image/minimize_icon.svg</file>
     </qresource>
 </RCC>

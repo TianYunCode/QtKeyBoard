@@ -1,6 +1,7 @@
 #ifndef KEYBOARDDEMO_H
 #define KEYBOARDDEMO_H
 
+#include "src/KeyBoard.h"
 #include <QWidget>
 
 namespace Ui {
@@ -26,6 +27,8 @@ protected:
 
 private:
     Ui::KeyBoardDemo *ui;
+
+    KeyBoard *kb;
 };
 
 #endif // KEYBOARDDEMO_H

@@ -2,10 +2,11 @@
 #include "ui_KeyBoardDemo.h"
 
 #include <QTextEdit>
-
+#include "../src/KeyBoard.h"
 KeyBoardDemo::KeyBoardDemo(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::KeyBoardDemo)
+    , kb(nullptr)
 {
     ui->setupUi(this);
 
@@ -22,7 +23,8 @@ KeyBoardDemo::~KeyBoardDemo()
 
 void KeyBoardDemo::onShowKeyBoard(QObject *watched)
 {
-
+    if(!kb) kb = new KeyBoard();
+    kb->showKeyBoard();
 }
 
 bool KeyBoardDemo::eventFilter(QObject *watched, QEvent *event)

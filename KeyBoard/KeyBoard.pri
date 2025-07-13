@@ -2,9 +2,6 @@ INCLUDEPATH     += $$PWD/
 DEPENDPATH      += $$PWD/
 
 HEADERS += \
-    $$PWD/virtualkeyboard.h \
-    $$PWD/customerqpushbutton.h \
-    $$PWD/keyboard.h \
     $$PWD/api/atomdictbase.h \
     $$PWD/api/dictbuilder.h \
     $$PWD/api/dictdef.h \
@@ -23,12 +20,11 @@ HEADERS += \
     $$PWD/api/sync.h \
     $$PWD/api/userdict.h \
     $$PWD/api/utf16char.h \
-    $$PWD/api/utf16reader.h
+    $$PWD/api/utf16reader.h \
+    $$PWD/src/KeyBoard.h
     
 
 SOURCES += \
-    $$PWD/customerqpushbutton.cpp \
-    $$PWD/keyboard.cpp \
     $$PWD/api/dictbuilder.cpp \
     $$PWD/api/dictlist.cpp \
     $$PWD/api/dicttrie.cpp \
@@ -44,10 +40,11 @@ SOURCES += \
     $$PWD/api/sync.cpp \
     $$PWD/api/userdict.cpp \
     $$PWD/api/utf16char.cpp \
-    $$PWD/api/utf16reader.cpp
+    $$PWD/api/utf16reader.cpp \
+    $$PWD/src/KeyBoard.cpp
 
 FORMS += \
-    $$PWD/keyboard.ui
+    $$PWD/src/KeyBoard.ui
 
 RESOURCES += \
     $$PWD/res/res.qrc
